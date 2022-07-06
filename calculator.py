@@ -1,6 +1,4 @@
 import time
-
-
 class Calculator:
     def addition(self) -> int:
         '''
@@ -323,7 +321,7 @@ with second number is: " + str(quo))
                     len = int(input("Please enter the Length value: "))
                     wid = int(input("Please enter the Width value: "))
                     area = len * wid
-                    return "The Perimeter of the Rectangle is: " + str(area)
+                    return "The Area of the Rectangle is: " + str(area)
                 elif ask_user.lower() == 'no':
                     print("Please choose again which operations you want to perform")
                     time.sleep(3)
